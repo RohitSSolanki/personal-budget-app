@@ -1,4 +1,4 @@
-<!-- AUTO-GENERATED — byte-faithful mirror of aevum-api@09917f61/docs. Edit at source, not here. -->
+<!-- AUTO-GENERATED — byte-faithful mirror of aevum-api@1353a4fc/docs. Edit at source, not here. -->
 
 <!-- Tier: T1 · general audience ("anyone"). Public-safe: aevum-hub mirrors this
      file and merges it with the web lane's T1 into the T0 product doc.
@@ -11,8 +11,8 @@
 ## The short version
 
 Your account is protected by more than a password. Aevum ties each sign-in to the
-specific device you're using, offers an optional second step at login, remembers
-the devices you trust, and tells you by email whenever something new happens — a
+specific device you're using, lets you sign in with a passkey instead of a
+password, offers an optional second step at login, remembers the devices you trust, and tells you by email whenever something new happens — a
 sign-in from an unfamiliar device, a password change, a new email address. The
 goal is simple: even if someone learned your password, they still shouldn't be
 able to get in.
@@ -32,6 +32,23 @@ up, Aevum may ask for one more thing before finishing — a code from your
 authenticator app, or a one-time code we email you when you're on a device we
 haven't seen before. Each of these is a quick extra step that stands between a
 stolen password and your account.
+
+If you've set up a passkey, you can skip the password altogether — a quick tap of
+your fingerprint, face, or device PIN signs you in.
+
+## Passkeys
+
+A **passkey** lets you sign in with your fingerprint, face, or device PIN instead of
+typing a password. It's created on your device and never leaves it, which makes it
+both effortless and very hard to phish — there's no password to steal or trick out
+of you.
+
+You can add a passkey from your security settings (we'll ask you to confirm it's you
+first). Once it's set up, the sign-in screen offers it as the quickest way in — and
+your password and social sign-in keep working exactly as before, so nothing is lost.
+Add one on each device you use; because passkeys sync through your phone's or
+browser's own account, they often follow you to your other devices automatically. You
+can rename or remove any passkey from your security settings at any time.
 
 ## Two-factor authentication
 

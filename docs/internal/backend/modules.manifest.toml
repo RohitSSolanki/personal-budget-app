@@ -175,6 +175,10 @@ governs = "suite layout, fixtures, isolation, run commands, coverage"
 domain  = "Deployment"
 governs = "the Render deploy — image, blueprint, secrets, feature flags"
 
+[handbook.database-roles]
+domain  = "Database roles"
+governs = "who may change the schema and who may not — the aevum_migrate / aevum_app split, ownership, grants, per-role timeouts. An OPERATOR procedure: nothing in this repo executes it"
+
 [handbook.backups]
 domain  = "Backups"
 governs = "the only copy of prod — the dump job, the weekly tier, the first-user guard, bucket verification, the restore drill"

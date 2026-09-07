@@ -3,33 +3,33 @@
   "lane": "backend",
   "counts": {
     "feature_modules": 26,
-    "db_models": 57,
-    "api_endpoints": 166,
+    "db_models": 58,
+    "api_endpoints": 175,
     "endpoints_by_method": {
-      "GET": 65,
-      "POST": 65,
+      "GET": 66,
+      "POST": 70,
       "PUT": 6,
-      "PATCH": 15,
-      "DELETE": 15
+      "PATCH": 16,
+      "DELETE": 17
     },
-    "routers": 36,
-    "tests": 1976,
-    "test_functions": 1707,
+    "routers": 38,
+    "tests": 2148,
+    "test_functions": 1840,
     "tests_counted_by": "pytest --collect-only (parametrized cases counted)",
     "scheduled_workers": 8,
-    "email_types": 12
+    "email_types": 13
   },
   "complexity": {
     "note": "Static analysis (radon) over app/ \u2014 re-derived each run.",
     "avg_cyclomatic": "A (2.74)",
     "maintainability_grade_a_pct": 99.4,
-    "maintainability": "grade A on 331/333 modules (99.4%)"
+    "maintainability": "grade A on 341/343 modules (99.4%)"
   },
   "sloc": {
     "note": "Accurate code lines (pygount, excludes blanks/comments).",
-    "backend_app": 30485,
-    "backend_tests": 26491,
-    "total": 56976
+    "backend_app": 31295,
+    "backend_tests": 27965,
+    "total": 59260
   },
   "benchmark": {
     "note": "Tier-2 measured performance \u2014 captured by the benchmark runners at release/CI and preserved between static regens of stats.backend.json. Each block records its own capture provenance. 'Indicative, not contractual' (Postgres testcontainer, ~20% run variance).",

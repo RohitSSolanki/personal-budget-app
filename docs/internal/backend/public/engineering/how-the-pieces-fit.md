@@ -1,4 +1,4 @@
-<!-- AUTO-GENERATED — byte-faithful mirror of aevum-api@6b1e4989/docs. Edit at source, not here. -->
+<!-- AUTO-GENERATED — byte-faithful mirror of aevum-api@1353a4fc/docs. Edit at source, not here. -->
 
 # How the pieces fit
 
@@ -89,7 +89,7 @@ request must prove it comes from the same device that logged in. Each device hol
 own key, the access token is bound to that key, and every request is signed, so a
 stolen token is useless from any other device. The refresh token is kept in a secure,
 JavaScript-inaccessible cookie so common browser attacks can't lift it, and it rotates
-on each use. On top of that sit the expected layers — social login, optional two-factor,
-an always-on check for logins from a new device, and account recovery — but the
-device-binding guarantee is the load-bearing one. *(The cryptographic specifics are
+on each use. On top of that sit the expected layers — social login, passkeys, optional
+two-factor, an always-on check for logins from a new device, and account recovery — but
+the device-binding guarantee is the load-bearing one. *(The cryptographic specifics are
 intentionally out of scope here.)*

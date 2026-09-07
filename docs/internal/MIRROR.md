@@ -13,18 +13,18 @@ here instead, since they cannot hold an HTML comment.
 | Mirrored file | Source @ |
 | --- | --- |
 | `backend/README.md` | aevum-api@6b1e4989 |
-| `backend/architecture.md` | aevum-api@ec464d1c |
-| `backend/modules.manifest.toml` | aevum-api@b435fec6 |
+| `backend/architecture.md` | aevum-api@ef4b6147 |
+| `backend/modules.manifest.toml` | aevum-api@92f48930 |
 | `backend/perf/benchmarks.json` | aevum-api@f290c9f0 |
 | `backend/performance.md` | aevum-api@34999cd1 |
 | `backend/public/activity.md` | aevum-api@09917f61 |
-| `backend/public/auth.md` | aevum-api@09917f61 |
+| `backend/public/auth.md` | aevum-api@1353a4fc |
 | `backend/public/bank_accounts.md` | aevum-api@09917f61 |
 | `backend/public/beneficiaries.md` | aevum-api@09917f61 |
 | `backend/public/budgets.md` | aevum-api@09917f61 |
 | `backend/public/categorization.md` | aevum-api@09917f61 |
 | `backend/public/engineering/README.md` | aevum-api@6b1e4989 |
-| `backend/public/engineering/how-the-pieces-fit.md` | aevum-api@6b1e4989 |
+| `backend/public/engineering/how-the-pieces-fit.md` | aevum-api@1353a4fc |
 | `backend/public/engineering/testing-and-quality.md` | aevum-api@6b1e4989 |
 | `backend/public/engineering/the-consumption-tax-engine.md` | aevum-api@7d29cf50 |
 | `backend/public/engineering/the-resolved-ledger.md` | aevum-api@54952570 |
@@ -36,7 +36,7 @@ here instead, since they cannot hold an HTML comment.
 | `backend/public/transactions.md` | aevum-api@09917f61 |
 | `backend/public/treasury.md` | aevum-api@09917f61 |
 | `backend/public/users.md` | aevum-api@09917f61 |
-| `backend/stats.backend.json` | aevum-api@ec464d1c |
+| `backend/stats.backend.json` | aevum-api@ef4b6147 |
 | `backend/tree.annotations.toml` | aevum-api@eaba4b35 |
 
 ## aevum-frontend

@@ -1,4 +1,4 @@
-<!-- AUTO-GENERATED — byte-faithful mirror of aevum-api@ec464d1c/docs. Edit at source, not here. -->
+<!-- AUTO-GENERATED — byte-faithful mirror of aevum-api@ef4b6147/docs. Edit at source, not here. -->
 
 <!-- Tier: T1 · general audience. An orientation map, not a spec: enough to know
      what the backend is and where each piece lives, then links down to the
@@ -59,10 +59,10 @@ gate checks — so these figures never drift from what CI enforces:
 | Metric                     | Value       |
 | -------------------------- | ----------- |
 | Feature modules            | 26          |
-| Database models            | 57          |
-| API endpoints              | 166         |
-| Tests                      | 1,976       |
-| Application code           | 30,485 SLOC |
+| Database models            | 58          |
+| API endpoints              | 175         |
+| Tests                      | 2,148       |
+| Application code           | 31,295 SLOC |
 | Avg. cyclomatic complexity | A (2.74)    |
 
 <!-- END GENERATED:stats-summary -->
